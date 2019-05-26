@@ -1,0 +1,17 @@
+/* 3rd Party Fonts */
+@import './assets/fonts/Radikal.wxss';
+
+text, view {
+  font-family: 'Radikal', 'Mircrosoft Yahei', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}

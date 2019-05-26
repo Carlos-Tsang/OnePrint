@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "main-menu": "../../components/main-menu/main-menu",
+    "main-header": "../../components/main-header/main-header"
+  },
+  "navigationStyle": "custom",
+  "disableScroll": true
+}

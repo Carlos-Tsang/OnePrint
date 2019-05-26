@@ -1,0 +1,6 @@
+<view class="menu-item" hover-class="menu-item-active" url="{{info.url}}"
+  bindtap="handleTap" style="{{opened? '' : initPos}}">
+  <text class="ink" wx:if="{{flag}}" style="{{inkPos}}"></text>
+  <text wx:if="{{info.icon}}" class="{{prefix + info.icon}}"></text>
+  <text>{{info.name}}</text>
+</view>

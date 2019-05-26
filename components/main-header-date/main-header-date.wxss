@@ -1,0 +1,8 @@
+.header-date {
+  position: absolute;
+  bottom: 40rpx;
+  color: #ffffff;
+  font-size: 80rpx;
+  font-family: 'Radikal';
+  text-shadow: 1rpx 1rpx 8px rgba(0,0,0,.6);
+}

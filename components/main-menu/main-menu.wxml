@@ -1,0 +1,11 @@
+<block>
+  <view class="menu {{opened? 'opened' : ''}}" style="{{styles.menu}}">
+    <menu-item wx:for="{{items}}" wx:key="{{index}}" prefix="{{prefix}}" count="{{index}}" info="{{item}}" opened="{{opened}}" bindnavigate="onNavigate"></menu-item>
+  </view>
+  <view class="menu-icon {{opened? 'opened' : ''}}" catchtap="toggle"
+    style="{{opened? styles.icon_opened : styles.icon }}">
+    <view class="icon-bar"></view>
+    <view class="icon-bar"></view>
+    <view class="icon-bar"></view>
+  </view>
+</block>

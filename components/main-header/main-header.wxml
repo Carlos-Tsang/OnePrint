@@ -1,0 +1,7 @@
+<view class="header">
+  <view class="header-main" style="padding-top: {{statusBarHeight + 10}}px">
+    <header-date></header-date>
+  </view>
+  <view class="header-bg"></view>
+</view>
+
