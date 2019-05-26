@@ -1,8 +1,3 @@
-<style>
-* {
-  font-family: 'Microsoft Yahei', 'Pingfang SC', 'Arial'
-}
-</style>
 # OnePrint
 
 A Wechat mini program which helps people to make a good habit.
